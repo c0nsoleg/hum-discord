@@ -1,0 +1,16 @@
+{
+    "extends": "standard",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "impliedStrict": true
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "amd": true
+    },
+    "rules": {
+        "semi": ["error", "always"]
+    }
+}

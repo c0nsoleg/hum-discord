@@ -1,0 +1,35 @@
+{
+  "name": "hum-discord",
+  "version": "0.0.1",
+  "description": "Discord bot that provides you maximum personalisation for your server. ",
+  "author": "rchl2 <freshieboyz+git@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon --watch src node src/hum.js"
+  },
+  "dependencies": {
+    "discord.js": "11.4.2",
+    "uws": "99.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "nodemon": "1.18.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HumDevelopers/hum-discord"
+  },
+  "bugs": {
+    "url": "https://github.com/HumDevelopers/hum-discord/issues"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
