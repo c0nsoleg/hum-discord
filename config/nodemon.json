@@ -1,6 +1,0 @@
-{
-    "watch": "src",
-    "execMap": {
-      "js": "node hum.js"
-    }
-}
